@@ -3,8 +3,9 @@
 :root{
     --darkViolet:#9400D3;
     --black:#192a56;
-    --light-color:#666;
-    --box-shadow:0 .5rem 1.5rem rgba(0,0,0.1);
+    --grey:#666;
+    --lightgrey:#f8f8ff;
+    --box-shadow:0 .5rem 1.5rem rgb(229, 223, 223);
 }
 
 *{
@@ -28,7 +29,7 @@ section{
     padding:2rem 9%;
 }
 section:nth-child(even){
-    background:#eee;
+    background:#fff;
 }
 
 
@@ -49,7 +50,6 @@ section:nth-child(even){
 }
 
 
-
 .btn{
 
     margin-top: 1rem;
@@ -57,7 +57,7 @@ section:nth-child(even){
     font-size: 1.7rem;
     color: #fff;
     background: var(--black);
-    border-radius: .5rem;
+    border-radius: 5rem;
     cursor: pointer;
     padding: .8rem 3rem;
 }
@@ -86,9 +86,9 @@ header .logo{
  
 header .navbar a{
     font-size: 1.7rem;
-    border-radius: .5rem;
+    border-radius: 5rem;
     padding:.5rem 1.5rem;
-    color:var(--light-color);
+    color:var(--grey);
 }
 
 header .navbar a.active,
@@ -102,14 +102,14 @@ header .icons i,
 header .icons a{
     cursor: pointer;
     margin-left: .5rem;
-    height:4.5rem;
-    line-height:4.5rem;
-    width:4.5rem;
+    height:4rem;
+    line-height:4rem;
+    width:4rem;
     text-align: center;
     font-size:1.7rem;
     color: var(--black);
     border-radius: 50%;
-    background: #eee;
+    background: #fff;
 
 }
 
@@ -157,7 +157,7 @@ header .icons #menu-bars{
 }
 
 #search-form #search-box::placeholder{
-    color:#eee;
+    color:#fff;
 }
 
 #search-form #search-box::-webkit-search-cancel-button{
@@ -214,7 +214,7 @@ header .icons #menu-bars{
 }
 
 .home .home-slider .slide .content p{
-    color:var(--light-color);
+    color:var(--grey);
     font-size: 2.2rem;
     padding: .5rem 0;
     line-height: 1.5;
@@ -246,11 +246,11 @@ header .icons #menu-bars{
 .new .box-container .box .fa-eye{
     position: absolute;
     top:1.5rem;
-    background: #eee;
+    background: #fff;
     border-radius: 50%;
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
     font-size: 2rem;
     color: var(--black);
 }
@@ -304,13 +304,13 @@ header .icons #menu-bars{
 
 }
 .about .row .image{
-    flex:1 1 45rem;
+    flex:1 1 40rem;
 }
 .about .row .image img{ 
     width: 100%;
 }
 .about .row .content{
-    flex:1 1 45rem;
+    flex:1 1 40rem;
 }
 .about .row .content h3{
     color: var(--darkViolet);
@@ -318,7 +318,7 @@ header .icons #menu-bars{
     padding: 1rem;
 }
 .about .row .content p{
-    color: var(--light-color);
+    color: var(--grey);
     font-size: 1.5rem;
     padding: 3rem 0;
     line-height: 2;
@@ -338,7 +338,7 @@ header .icons #menu-bars{
     margin: .5rem;
 }
 .about .row .content .icons-container .icons{
-    background:#eee;
+    background:#fff;
     border-radius: .5rem;
     border: .1rem solid rgba(0,0,0,.2);
     display: flex;
@@ -387,12 +387,11 @@ header .icons #menu-bars{
 .products .box-container .box .image .fa-heart{
     position: absolute;
     top:2.5rem; right:2.5rem;
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
     text-align: center;
     font-size: 2rem;
-    background:lightgray;
     border-radius: 50%;
     color:var(--black);
 }
@@ -416,7 +415,7 @@ header .icons #menu-bars{
     font-size: 2.5rem;
 }
 .products .box-container .box .content .stars p{
-    color: var(--light-color);
+    color: var(--grey);
     font-size: 1.6rem;
     padding: .5rem 0;
     line-height: 1.5;
@@ -451,7 +450,7 @@ header .icons #menu-bars{
     padding: 1rem;
 }
 .service .row .content p{
-    color: var(--light-color);
+    color: var(--grey);
     font-size: 1.5rem;
     padding: 3rem 0;
     line-height: 2;
@@ -471,7 +470,7 @@ header .icons #menu-bars{
     margin: .5rem;
 }
 .service .row .content .icons-container .icons{
-    background:#eee;
+    background:#fff;
     border-radius: .5rem;
     border: .1rem solid rgba(0,0,0,.2);
     display: flex;
@@ -514,7 +513,7 @@ header .icons #menu-bars{
     display: block;
     padding: .5rem 0;
     font-size: 1.5rem;
-    color:var(--light-color)
+    color:var(--grey)
 }
 .order form .inputBox .input input,
 .order form .inputBox .input textarea{
@@ -551,7 +550,7 @@ header .icons #menu-bars{
     display:block;
     padding: 1rem 0;
     font-size: 1.5rem;
-    color:var(--light-color);
+    color:var(--grey);
 }
 .footer .box-container .box a:hover{
     color:var(--darkViolet);
@@ -615,7 +614,7 @@ header .icons #menu-bars{
         padding: 1.5rem;
         margin: 1rem;
         font-size: 2rem;
-        background: #eee;
+        background: #fff;
     }
 
 }
