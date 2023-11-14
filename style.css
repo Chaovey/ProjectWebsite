@@ -410,13 +410,13 @@ header .icons #menu-bars{
     font-size: 1.7rem;
     color:var(--darkViolet);
 }
-.products .box-container .box .content .stars h3{
+.products .box-container .box .content>h3{
     color:  var(--black);
     font-size: 2.5rem;
 }
-.products .box-container .box .content .stars p{
+.products .box-container .box .content>p{
     color: var(--grey);
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     padding: .5rem 0;
     line-height: 1.5;
 }
